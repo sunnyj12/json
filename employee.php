@@ -77,7 +77,7 @@
                     
                     <div class="form-group">
                        <label for="">Department</label>
-                       <select class="form-control" name="dept_name">
+                       <select class="form-control" name="dept_no">
 						   <option value="">select</option>
                               <?php while($row = mysqli_fetch_array($records)){ ?>
                              <option value="<?php echo $row['dept_no']; ?>"> <?php echo $row['dept_name'];?> </option>

@@ -64,7 +64,7 @@ $limit =05;
     
     $start_from = ($pn-1) * $limit;   
   
-    $sql = "SELECT * FROM emp_table JOIN salaries ON emp_table.emp_no = salaries.emp_no JOIN departments ON emp_table.emp_no= departments.dept_no";     
+    $sql = "SELECT * FROM emp_table LEFT JOIN salaries ON emp_table.emp_no = salaries.emp_no JOIN dept_manager ON emp_table.emp_no=dept_manager.emp_no JOIN departments ON dept_manager.dept_no=departments.dept_no" ;     
     $rs_result = mysqli_query ($conn,$sql);  
     
   //~ ORDER BY emp_no DESC

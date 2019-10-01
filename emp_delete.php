@@ -14,4 +14,7 @@ if(count($_GET)>0) {
   	echo "Data not deleted";
   }
   //$message = "Employee Details Successfully Deleted.";
+  
 }
+
+
