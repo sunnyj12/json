@@ -28,13 +28,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=5
-FILE_NAME_0=762;PHP;0;EUTF-8;1;1;1;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Fcreate.php;0;4
-FILE_NAME_1=4462;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Femployee.php;0;4
-FILE_NAME_2=289;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Fconnection1.php;0;4
-FILE_NAME_3=1469;PHP;0;EUTF-8;1;1;1;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Femp.php;0;4
-FILE_NAME_4=768;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Femp_update.php;0;4
-FILE_NAME_5=265;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Femp_delete.php;0;4
+current_page=0
+FILE_NAME_0=1551;PHP;0;EUTF-8;1;1;1;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Femp.php;0;4
+FILE_NAME_1=794;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Fcreate.php;0;4
+FILE_NAME_2=3097;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fjson-crud%2Femployee.php;0;4
 
 [VTE]
 last_dir=/home/onsdev29

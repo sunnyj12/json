@@ -14,8 +14,6 @@ $manager= $_POST['manager'];
 $Salary = $_POST['salary'];
   
 
-
-
 $query = "INSERT INTO `emp_table`( `birth_date`, `firstname`, `lastname`, `gender`, `hiredate`) VALUES ('$bdate','$fname','$lname','$gender','$Hiring')";
 
 $conn->query($query) or die($conn->error);
@@ -27,7 +25,8 @@ if($data)
 }
 	$conn->query($query1) or die($conn->error);
 	
-	$query2="INSERT INTO dept_manager(dept_no,emp_no)VALUES('$dept','$data')";
+	$query2="INSERT INTO dept_emp(`emp_no`, `dept_no`)VALUES('$data','$dept')";
+	
 	$conn->query($query2) or die($conn->error);
 }
 ?>
